@@ -159,9 +159,18 @@ margin-top: 50px;
   margin-top: 20px;
   margin-bottom: 50px;
    }
+   .flex i{
+    padding-left: 150px;
+     }
    .flex2 i{
     padding-left: 150px;
      }
+     .flex3 i{
+      padding-left: 150px;
+       }  
+        .flex4 i{
+        padding-left: 150px;
+         }
 
    .flex3{
     margin-top: 50px;
