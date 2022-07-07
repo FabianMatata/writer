@@ -316,7 +316,7 @@ margin-top: 20px;
 .buttom ul li  {
   list-style-type: none;
   display: inline-block;
-  float: right;
+  float: left;
 }
 .buttom li {
   display: block;
