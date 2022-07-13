@@ -12,3 +12,11 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+
+
+$('.carousel').carousel()
+
+$(document).ready(function () {
+  $('.carousel').carousel();
+});
