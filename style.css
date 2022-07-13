@@ -1,6 +1,7 @@
 .nav-item{
   /* font-weight: bold; */
   /* font-size: 19px; */
+  padding: 0px;
 }
 .nav-item a:hover {
   color: #0DD0FA;
