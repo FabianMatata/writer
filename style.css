@@ -429,3 +429,74 @@ hr.redd {
 		display: none;
 	}
 }
+
+
+/* help section */ 
+#help {
+  /* background-image: url(./images/hilux.jpg); */
+  /* height: 900px; */
+  /* width: 100%; */
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* help section */
+
+
+
+/* social buutons */
+ /* Style all font awesome icons */
+ .fa {
+  /* padding: 15px; */
+  /* font-size: 20px; */
+  /* width: 40px; */
+  /* text-align: center; */
+  /* text-decoration: none; */
+  border-radius: 7px;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+} 
+
+/* Youtube */
+.fa-youtube {
+  background: #bb0000;
+} 
+
+ /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+#footer {
+  background-color: grey;
+  font-size: 22px;
+  color: white;
+}
+
