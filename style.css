@@ -1,34 +1,15 @@
 .nav-item a:hover {
   color: #0DD0FA;
 }
-
-/* hero image section */
-/* .hero img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-} */
-
-.hero-2 {
-  /* background-color: #0DD0FA; */
-}
-
 /* hero image & text */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/group.jpeg"); */
-  /* background-image: url(https://www.netcarshow.com/Toyota-Land_Cruiser-2010-1280-05.jpg); */
-  background-image: url(./images/group.jpeg);
-
+  background-image: url(https://s2.research.com/wp-content/uploads/2020/07/24112622/debate1-1-1080x600.jpg);
   height: 750px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
@@ -38,78 +19,17 @@
   transform: translate(-50%, -50%);
   color: white;
 }
-
 .hero-image .card {
   color: black;
   font-weight: bold;
   font-size: 16px;
   opacity: .7;
-  /* background-image: none; */
   background-color: rgba(255, 255, 255, 0.1);
-
-
 }
-
-
-
-
-
-/* .skyblue {
-  background-color: #0DD0FA;
-  height: 600px;
-} */
-
-/* hero image section */
-
-/*  */
-/* .speedo {
-  background-color: #204088;
-  color: white;
-  font-size: 20px;
-  margin-top: -120px;
-  margin-left: 299px;
-  padding: 20px;
-  border-radius: 3%;
-}
-
-.speedo .card-title {
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.speedo button {
-  background-color: #FC4A3C;
-  border-radius: 10%;
-  color: white;
-  font-weight: bold;
-} */
-
-/* .speedoo {
-  background-color: #204088;
-  color: white;
-  font-size: 16px;
-  margin-top: 99px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
-
-.speedoo .card-title {
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.speedooo {
-  background-color: #204088;
-  color: white;
-  font-size: 16px;
-  padding: 20px;
-} */
-
 /*  */
 hr.redd {
   border-top: 1px dotted red;
 }
-
 .academic {
   background-color: #204088;
   color: white;
@@ -122,23 +42,19 @@ hr.redd {
   margin-left: 42%;
   margin-top: -100px;
 }
-
 /* excellence start */
 .excellence h5 {
   color: blue;
 }
-
 .excellence h3 {
   font-size: 34px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-
 /* services */
 .servicess {
   background-color: #204088;
 }
-
 .why h4 {
   color: white;
   font-weight: bold;
@@ -424,38 +340,92 @@ hr.redd {
   }
 }
 
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+/* testimonial section */
+.box-area {
+	padding: 30px;
+	position: relative;
+	display: block;
+	background: #fff;
+	color: #000;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin: 40px 0;
 }
-
-body {
-  margin: 0;
+.box-area h5 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #0a69ed;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
-
-.slide {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: 200ms opacity ease-in-out;
-  transition-delay: 200ms;
+.box-area span {
+	color: #262626;
+	display: block;
+	font-size: 13px;
+	margin: 0 0 10px;
+	font-weight: 400;
 }
-
-.slide>img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+.box-area .content {
+	color: #262626;
 }
-
-.slide[data-active] {
-  opacity: 1;
-  z-index: 1;
-  transition-delay: 0ms;
+.box-area .img-area {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: -40px;
+	left: 0;
+	bottom: 0;
+	margin: 0 auto;
+	right: 0;
+	z-index: 1;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
-
-
-
+.box-area .img-area img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.stars i {
+	margin: 0 5px;
+	color: #0a69ed;
+	font-size: 18px;
+}
+#testimonial_area .owl-nav {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+#testimonial_area .owl-prev, #testimonial_area .owl-next {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #0a69ed;
+	border-radius: 50%;
+	text-align: center;
+	background: #fff;
+	position: absolute;
+}
+#testimonial_area .owl-prev {
+	left: -60px;
+	top: -30px;
+}
+#testimonial_area .owl-next {
+	right: -60px;
+	top: -30px;
+}
+@media only screen and (max-width: 991px) {
+	.owl-nav {
+		display: none;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.box-area {
+		text-align: center;
+	}
+	.owl-nav {
+		display: none;
+	}
+}
