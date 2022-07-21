@@ -1,5 +1,6 @@
 .nav-item a:hover {
-  /* color: #0DD0FA; */
+  color: #0DD0FA;
+  border-bottom: 1px solid transparent;
 }
 /* hero image & text */
 .hero-image {
