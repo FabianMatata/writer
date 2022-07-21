@@ -1,5 +1,5 @@
 .nav-item a:hover {
-  color: #0DD0FA;
+  /* color: #0DD0FA; */
 }
 /* hero image & text */
 .hero-image {
@@ -500,3 +500,32 @@ hr.redd {
   color: white;
 }
 
+/* back to top button */
+.top {
+  position: sticky;
+  bottom: 30px;
+  /* text-decoration: none; */
+  padding: 10px;
+  /* font-family: sans-serif; */
+  /* color: red; */
+  /* background: green; */
+  /* border-radius: 100px; */
+  /* padding: 20px; */
+  /* font-size: 20px; */
+  /* height: 30px; */
+  /* width: 30px; */
+  /* display: flex; */
+  /* align-content: right; */
+  align-items: right;
+  text-align: right;
+  /* align-self: right; */
+  font-size: 30px;
+  justify-content: space-between;
+  display:inline-block;
+  float: left;
+  display:inline-block;
+  overflow: auto;
+  white-space: nowrap;
+  margin:0px auto;
+  /* border:1px red solid; */
+}
