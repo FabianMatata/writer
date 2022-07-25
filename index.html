@@ -81,7 +81,7 @@
   <section class="" id="home">
     <div class="hero-image">
       <div class="hero-text">
-        <div class="card">
+        <div class="card" style="color: blue;">
           <h1 class="d-flex justify-content-start">Welcome to</h1>
           <h2>Academic Writing</h2>
           <p class="card-text py-3 px-3">We have a team of professional writers who provide high quality Academic
@@ -124,6 +124,156 @@
     </div>
   </section>
   <!--section end-->
+
+    <!--Assignment help-->
+    <section class="mb-3 pb-5 pt-2" id="help" style="background-color: #E1EAD4;">
+      <div class="container">
+  
+        <h2 class="text-center" style="font-weight: bold;">Assignment Help</h2>
+        <div>  
+          <form>
+            <p class="mb-4 fs-3">Give us the details of your paper/assignment.</p>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Topic</label>
+                <input type="" class="form-control" id="inputEmail4" placeholder="Enter the topic">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="subject">Subject</label>
+                <div class="form-control">
+                  <select class="" id="exampleFormControlSelect1" name="subject">
+                    <option value=""></option>
+                    <option value="Accounting">Accounting</option>
+                    <option value="Architecture">Architecture</option>
+                    <option value="Design Analysis">Design & Analysis</option>
+                    <option value="Art">Art</option>
+                  </select>
+                </div>
+
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="papertype">Paper Type</label>
+                <div class="form-control">
+                  <select class="" id="exampleFormControlSelect1" name="papertype">
+                    <option value=""></option>
+                    <option value="Essay">Essay</option>
+                    <option value="Term Paper">Term Paper</option>
+                    <option value="Research Paper">Research Paper</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="academiclevel">Academic Level</label>
+                <div class="form-control">
+                  <select class="" id="exampleFormControlSelect1" name="academiclevel">
+                    <option value="">Choose academic level</option>
+                    <option value="high school">High School</option>
+                    <option value="undergraduate">Undergraduate</option>
+                    <option value="masters">Masters</option>
+                    <option value="phd">Ph.d</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+  
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="numberofpages">Number of pages</label>
+                <div class="form-control">
+                  <select class="" id="exampleFormControlSelect1" name="numberofpages">
+                    <option value="1 page">1 page/approx 275 words</option>
+                    <option value="2 page">2 page/approx 550 words</option>
+                    <option value="3 page">3 page/approx 825 words</option>
+                    <option value="4 page">4 page/approx 1100 words</option>
+                    <option value="5 page">5 page/approx 1375 words</option>
+                    <option value="6 page">6 page/approx 1650 words</option>
+                    <option value="7 page">7 page/approx 1925 words</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Deadline <span style="font-style: italic; color: red;">(Default = 5 days)</span></label>
+                <input type="datetime-local" class="form-control" id="inputPassword4" placeholder="subject">
+              </div>
+            </div>
+  
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="citationstyle">Citation Style</label>
+                <div class="form-control">
+                  <select class="" id="exampleFormControlSelect1" name="citationstyle" aria-placeholder="choose your citation style...">
+                    <option value="">Choose your citation style...</option>
+                    <option value="APA">APA</option>
+                    <option value="MLA">MLA</option>
+                    <option value="Turabian">Turabian</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Harvard">Harvad</option>
+                    <option value="Oxford">Oxford</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="">Number of Citations</label>
+                <input type="number" min="0" class="form-control" id="inputPassword4" placeholder="">
+              </div>
+            </div>
+  
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="languagestyle">Language Style</label>
+                <div class="form-control">
+                  <select class="" id="exampleFormControlSelect1" name="citationstyle" aria-placeholder="choose your citation style...">
+                    <option value="">Choose language style...</option>
+                    <option value="us">ENGLISH (US)</option>
+                    <option value="uk">ENGLISH (UK)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4">Spacing</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Single spacing
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Double spacing
+                  </label>
+                </div>
+              </div>
+            </div>
+  
+              <div class="form-group">
+                <div class="form-row">
+                  <label for="exampleFormControlTextarea1">Description</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="description"> 
+                    </textarea>
+                </div>
+              </div>
+  
+              <div class="form-row">
+                ​<form action="/action_page.php">
+                  <label for="">Attach file</label>
+                  <input type="file" id="myFile" name="filename">
+                </form>
+              </div>
+  
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary mx-3 px-5">Back</button>
+              <button type="submit" class="btn btn-success px-4">Proceed</button>
+            </div>
+          </form>
+        </div>
+  
+      </div>
+    </section>
+    <!--assignment help-->
 
   <!--why section start-->
   <section class="servicess section" id="">
@@ -344,25 +494,20 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="accordion-item">
-              <h6 class="accordion-heade" id="heading-4">
+            <div class="accordion-item">
+              <h6 class="accordion-header" id="heading-1">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4"
                   aria-expanded="true" aria-controls="chapter-4" style="font-size: 18px;">
-                  Reviews
+                  Contact Us
                 </button>
               </h6>
               <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4"
                 data-bs-parent="#chapters">
                 <div class="accordion-body">
-                  <p>This website has been my savior. I will recommend it to my classmates.</p>
-                  <p>I got high-quality work in my dissertation. It was beyond my expectations.</p>
-                  <p>I had challenges in writing my problem statement, purpose statement, and literature review. The
-                    writer took me through selecting my research topic, writing my problem statement, and literature
-                    review and my dissertation were perfect.</p>
+                  <p>Feel free to contact for help in case you need more help.</p>
                 </div>
               </div>
-            </div> -->
-
+            </div>
           </div>
 
         </div>
@@ -374,64 +519,7 @@
 
   <hr class="mx-5" style="width: 3px;">
 
-  <!--Assignment help-->
-  <section class="mb-5" id="help">
-    <div class="container">
 
-      <h2 class="text-center" style="font-weight: bold;">Assignment Help</h2>
-      <!-- <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, cumque?</p> -->
-      <div>
-        <h3 class="text-center">its time you sought help from</h3>
-        <h4 class="text-center">assignementwriting.com experts</h4>
-
-        <form>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="inputEmail4">Topic</label>
-              <input type="email" class="form-control" id="inputEmail4" placeholder="Enter the topic">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="inputPassword4">Subject</label>
-              <input type="password" class="form-control" id="inputPassword4" placeholder="subject">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <div class="form-row">
-                <div class="form-group col">
-                  <label for="inputEmail4">Deadline</label>
-                  <input type="datetime-local" class="form-control" id="inputEmail4" placeholder="deadline">
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col">
-                  <label for="inputEmail4">Number of Pages</label>
-                  <input type="number" min="1" class="form-control" id="inputEmail4" placeholder="number of pages">
-                </div>
-              </div>
-            </div>
-            <div class="form-group col-md-6">
-              <div class="form-row">
-                <label for="exampleFormControlTextarea1">Description</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="description"> 
-                  </textarea>
-              </div>
-              <div class="form-row">
-                ​<form action="/action_page.php">
-                  <label for="">attach file</label>
-                  <input type="file" id="myFile" name="filename">
-                </form>
-              </div>
-            </div>
-
-          </div>
-          <button type="submit" class="btn btn-success">Free Assistance</button>
-        </form>
-      </div>
-
-    </div>
-  </section>
-  <!--assignment help-->
 
   <!-- START TESTIMONIAL -->
   <section id="testimonial_area" class="section_padding">
@@ -604,10 +692,10 @@
             <h1 class="px-5">Address</h1>
             <ul class="" style="list-style: none; font-size: 20px;">
               <li><i class="bi bi-envelope-open-fill px-5"></i>support@academicwriting.com</li>
-              <li class="my-5"><i class="bi bi-whatsapp px-5"></i>(+254) 721 584 219</li>
-              <li class=""><i class="bi bi-facebook px-5"></i>academicwriting</li>
-              <li class="my-5"><i class="bi bi-twitter px-5"></i>@academicwriting</li>
-              <li class=""><i class="bi bi-youtube px-5"></i>academicwriting</li>
+              <li class="my-5"><i class="bi bi-whatsapp px-5" style="color: #075E54;"></i>(+254) 721 584 219</li>
+              <li class=""><i class="bi bi-facebook px-5" style="color: 	#4267B2;"></i>academicwriting</li>
+              <li class="my-5"><i class="bi bi-twitter px-5" style="color:  #00acee;"></i>@academicwriting</li>
+              <li class=""><i class="bi bi-youtube px-5" style="color: #FF0000;"></i>academicwriting</li>
             </ul>
           </div>
         </div>
